@@ -12,7 +12,7 @@
 
   <title>Scrolling Nav - Start Bootstrap Template</title>
 
-   <!-- Bootstrap core CSS -->
+  <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
 
   <!-- Custom styles for this template -->
@@ -22,53 +22,54 @@
   <link rel="stylesheet" href="{% static 'fa/css/all.min.css' %}">
 
 
-  
-  
+
+
 
 </head>
 
-<body id="page-top">
+<body id="page-top" style="height: 100%;">
 
-    <div class="bg-withe text-segundary">
-        <div class="container">
-            <div class="row align-items-center">
-              <div class="col-sm">     
-                <img style="max-width: 300px;" class="rounded" src="/static/assets/logo1(escolhida).png" alt="img"/>
-              </div>
-              <div class="col-sm">
-                <div class="container text-center">
-                    <h1>Microrrede Intelicente CC</h1>
-                    <p class="lead">Um projeto do Ifes—Campus São Mateus</p>
-                  </div>
-              </div>
-             
-            </div>
+  <div class="bg-withe text-segundary">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm">
+          <img style="max-width: 300px;" class="rounded" src="/static/assets/logo1(escolhida).png" alt="img" />
+        </div>
+        <div class="col-sm">
+          <div class="container text-center">
+            <h1>Micro Rede Inteligente CC</h1>
+            <p class="lead">Um projeto do Ifes—Campus São Mateus</p>
           </div>
-        
-      
+        </div>
+
+      </div>
     </div>
-    
+
+
+  </div>
+
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Microrrede Intelicente CC</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand js-scroll-trigger" href="/">Micro Rede Inteligente CC</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">O que é uma Microrrede</a>
+            <a class="nav-link js-scroll-trigger" href="#what">O que é uma Micro Rede</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Calculadora</a>
+            <a class="nav-link js-scroll-trigger" href="#calculadora">Calculadora</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">A Microrrede</a>
+            <a class="nav-link js-scroll-trigger" href="#microrede">A Microrrede</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Sobre nós</a>
+            <a class="nav-link js-scroll-trigger" href="#sobrenos">Sobre nós</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
@@ -78,46 +79,125 @@
     </div>
   </nav>
 
-  
-  <section id="about">
+
+
+  <section id="inicio">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>About this page</h2>
-          <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
-          <ul>
-            <li>Clickable nav links that smooth scroll to page sections</li>
-            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-          </ul>
+
+          <h2>Início</h2>
+          <p class="lead">O Microrrede CC Inteligente é um projeto de pesquisa e desenvolvimento na área de eletrônica
+            de potência, com foco na construção de uma Microrrede CC para controle de fluxo de potência de fontes de
+            energia solar e eólica com armazenamento de energia através de banco de baterias, contando com dispositivos,
+            sensores e softwares inteligentes de monitoramento, supervisão e controle.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="services" class="bg-light">
+  <section id="what" class="bg-light">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Services we offer</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+          <h2>O que é uma microrede inteligente</h2>
+          <p class="lead">Uma microrrede é um sistema elétrico em pequena escala que pode estar ou não conectado na
+            rede elétrica. Os elementos que a compõem são fontes geradoras de energia, cargas e sistemas de
+            armazenamento de energia. E para ser considerado uma rede inteligente(Smart Grid), o sistema
+            deve conter elementos de automação e gerenciamento, proporcionando medições ao longo da
+            rede e também o compartilhamento de informações.
+            As microrredes CC apresentam vantagens por apresentarem interface natural com fontes de
+            energia renovável, melhor adequação com os dispositivos eletrônicos dos consumidores, alta
+            eficiência e por possuírem sistemas de controle simples.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="contact">
+  <section id="calculadora">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Contact us</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+          <h2>Calculadora de Conversores CC-CC</h2>
+          <p class="lead">Para a conexão das fontes de energia e das cargas com o barramento
+            CC da microrrede é necessário utilizar um conversor CC-CC.
+            Como parte do projeto da Microrrede CC Inteligente, desenvolvemos
+            uma calculadora para o dimensionamento desses conversores.
+            A nossa calculadora permite o dimensionamento dos filtros de entrada
+            e saída de conversores dos tipos Buck e Boost , fornecendo os valores
+            reais e comerciais a partir de alguns valores fornecidos pelo usuário.
+            A calculadora também dimensiona a quantidade de voltas de indutores
+            toroidais e cilíndricos.</p>
+          <a class="nav-link js-scroll-trigger" href="http://www.microredecc.com/">Calculadora</a>
         </div>
       </div>
     </div>
   </section>
 
+
+  <section id="microrede" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>A Microrrede</h2>
+          <p class="lead">
+            No nosso site você pode vizualizar os dados da
+            Microrrede.</p>
+          <a class="nav-link js-scroll-trigger" href="http://www.microredecc.com/">Site da microrede</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="sobrenos">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Sobre nós</h2>
+          <p class="lead">A Microrrede CC Inteligente é um projeto ligado ao IFES campus São Mateus, e foi idealizado
+            por professores
+            do Instituto no ano de 2019. Os professores e pesquisadores do grupo fazem parte dos cursos de técnico em
+            eletrotécnica e de engenharia elétrica.
+            Tendo seu início no ano de 2020, o objetivo geral do projeto é a pesquisa e desenvolvimento tecnológico na
+            área da eletrônica de potência, com foco no uso de energias renováveis. A ideia principal é a construção de
+            uma microrrede CC para controle de fluxo de potência de fontes de energia solar e eólica e com
+            armazenamento de energia.
+            Também tem como objetivos a formação de mão de obra qualificada e contribuições para o mercado de
+            energia elétrica.</p>
+          <section>
+            <h2>Nossa equipe</h2>
+            <b>Professores:</b>
+            <ul>
+              <li>Arthur Eduardo Alves Amorim</li>
+              <li>Nelson Henrique Bertollo Santana</li>
+            </ul>
+            <b>Alunos:</b>
+            <ul>
+              <li>Arthur da Silva Santos Estevam - Engenharia Elétrica</li>
+              <li>Jeisiany da Cruz Ferrugini - Engenharia Elétrica</li>
+              <li>Beatriz Medeiros da Silva - Técnico em Eletrotécnica Integrado ao Ensino Médio</li>
+              <li>Johann Jakob Schmitz Bastos - Técnico em Eletrotécnica Integrado ao Ensino Médio</li>
+              <li>Davi Henrique Ribeiro Soares - Técnico em Eletrotécnica Concomitante</li>
+              <li>Milena Rozario Negris- Técnico em Eletrotécnica Concomitante</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Contato</h2>
+          <p class="lead">
+            teste@teste.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
